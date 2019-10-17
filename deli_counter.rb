@@ -4,7 +4,7 @@ def line(line)
   if line.length == 0
     puts "The line is currently empty."
   else
-    line_length = "The line is #{line.length} person(s) long."
+    line_length = "The line is currently: "
     puts line_length
   end
 end
