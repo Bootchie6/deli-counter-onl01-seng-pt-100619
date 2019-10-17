@@ -14,7 +14,7 @@ end
 
 def take_a_number(line, name)
   line << name
-  puts "Hello, #{name}, you are the "
+  puts "Hello, #{name}, you're position in line is number #{line.length}."
 end
 
 def now_serving
