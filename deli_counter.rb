@@ -6,6 +6,7 @@ def line(line)
   else
     puts "The line is #{line.length} person(s) long."
   end
+  
 end
 
 def take_a_number
