@@ -23,4 +23,5 @@ def now_serving(line)
   else
     puts "Serving #{line.first}."
     line.shift
+  end
 end
