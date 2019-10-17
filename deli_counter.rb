@@ -5,8 +5,8 @@ def line(line)
     puts "The line is currently empty."
   else
     line_length = "The line is #{line.length} person(s) long."
+    puts line_length
   end
-  puts line_length
 end
 
 def take_a_number
