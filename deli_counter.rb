@@ -6,7 +6,7 @@ def line(line)
   else
     line_length = "The line is currently: "
     line.each.with_index(1) do |person, x|
-      
+      line_length << ""
     puts line_length
   end
 end
