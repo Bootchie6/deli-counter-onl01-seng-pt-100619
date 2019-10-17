@@ -5,7 +5,7 @@ def line(line)
     puts "The line is currently empty."
   else
     line_length = "The line is currently: "
-    line.each.with_index
+    line.each.with_index(1) do |
     puts line_length
   end
 end
