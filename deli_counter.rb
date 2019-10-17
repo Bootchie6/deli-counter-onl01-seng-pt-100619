@@ -13,7 +13,8 @@ def line(line)
 end
 
 def take_a_number(line, name)
-  
+  line << name
+  puts "Hello, "
 end
 
 def now_serving
